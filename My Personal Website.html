@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Personal Website</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+
+    /* Navigation Bar */
+    .nav {
+      background-color: #cfe1b9;
+      overflow: hidden;
+    }
+
+    .nav li {
+      float: left;
+      list-style-type: none;
+    }
+
+    .nav li a {
+      display: block;
+      color: #333;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .nav li a:hover {
+      background-color: #b9be6f;
+      color: white;
+    }
+
+    .nav .active {
+      background-color: #87986a;
+      color: white;
+    }
+
+    /* Layout */
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 40px;
+      max-width: 1000px;
+      margin: auto;
+      background-color: #ffffff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      margin-top: 30px;
+    }
+
+    .intro-text {
+      flex: 2;
+      padding-right: 20px;
+    }
+
+    .intro-text h1 {
+      margin-top: 0;
+      color: #333;
+    }
+
+    .intro-text p {
+      color: #555;
+    }
+
+    .quote {
+      font-style: italic;
+      margin-top: 20px;
+      color: #666;
+      border-left: 3px solid #cfe1b9;
+      padding-left: 15px;
+    }
+
+    .profile-pic {
+      flex: 1;
+    }
+
+    .profile-pic img {
+      width: 100%;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <ul class="nav">
+    <li><a class="active" href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="intro-text">
+      <h1>Welcome to My Personal Website</h1>
+      <p>Hello and welcome! I’m Andrea Yuan. This site is where I'll be sharing a glimpse of who I am, the people I care about, and the things I create and do.</p>
+      <div class="quote">“If you don't fail, you're not even trying.” – Denzel Washington</div>
+	  
+	  <div style="background-color: #ffffff; padding: 30px; max-width: 1000px; margin: 30px auto;">
+  <h2>What You'll Find Here</h2>
+  <ul style="padding-left: 0; color: #333;">
+    <li style ="margin-bottom: 15px;"><strong>About:</strong> Get to know me better</li>
+    <li style ="margin-bottom: 15px;"><strong>Gallery:</strong> A collection of meaningful moments with my family and close friends.</li>
+    <li style ="margin-bottom: 15px;"><strong>Portfolio:</strong> A showcase of my projects and activities that I’ve worked hard on.</li>
+    <li style ="margin-bottom: 15px;"><strong>Contact:</strong> Reach out to me through the details here—email, phone, or social media.</li>
+  </ul>
+</div>
+
+    </div>
+    <div class="profile-pic">
+      <img src="MyPhoto.jpg" alt="Profile Picture">
+    </div>
+  </div>
+<div <div id="about" style="background-color: #ffffff; padding: 30px; max-width: 1000px; margin: 30px auto; box-shadow: 0 0 10px rgba(0,0,0,0.1); display: flex; gap: 30px;">
+
+  <!-- Left Text Content -->
+  <div style="flex: 3;">
+    <h2>About Me</h2>
+    <p>
+     I am a student at Gov. Juanito Reyes Remulla, taking the strand of ICT Programming. I am 17 years old. I plan on finishing my education 
+	 and work in an IT Company. I am currently studying Html, css and Javascript in my last year of senior high. 
+    </p>
+    <p>Here are my hobbies:</p>
+    <ul style="margin-left: 20px;">
+      <li>Singing</li>
+      <li>Reading</li>
+      <li>Eating</li>
+      <li>Cooking</li>
+      <li>A little bit of Coding</li>
+    </ul>
+    <p>
+      Besides learning to code I also love to Read, to cook, sing and play video games. I like to also watch tiktok video's
+	  and I would also want to travel the world once I finish my education.
+    </p>
+  </div>
+
+  <!-- Quote Box -->
+  <div style="flex: 1; background-color: #e7f4f0; padding: 20px; border-left: 4px solid #63bfa3; font-style: italic; color: #444;">
+    “Failure is not the opposite of success, it's part of success.”  
+    
+  </div>
+</div>
+
+<div id="gallery" style="background-color: #ffffff; padding: 30px; max-width: 1000px; margin: 30px auto; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+  <h2>Gallery</h2>
+  <p>Here are some meaningful moments with my family and friends:</p>
+  
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-top: 20px;">
+    
+    <div style="text-align: center;">
+      <img src="firstphoto.jpg" alt="Photo 1" style="width: 100%; border-radius: 10px;">
+      <p>Picture with all my girl classmates</p>
+    </div>
+
+    <div style="text-align: center;">
+      <img src="secondphoto.jpg" alt="Photo 2" style="width: 100%; border-radius: 10px;">
+      <p>Dropping off my lolo at the airport with my family</p>
+    </div>
+
+    <div style="text-align: center;">
+      <img src="thirdphoto.jpg" alt="Photo 3" style="width: 100%; border-radius: 10px;">
+      <p>Family time-with cousin</p>
+    </div>
+
+    <div style="text-align: center;">
+      <img src="fourthphoto.jpg" alt="Photo 4" style="width: 100%; border-radius: 10px;">
+      <p>Childhood photo with mom and sisters</p>
+    </div>
+
+    <div style="text-align: center;">
+      <img src="fifthphoto.jpg" alt="Photo 5" style="width: 100%; border-radius: 10px;">
+      <p>A picture with cousins</p>
+    </div>
+
+    <div style="text-align: center;">
+      <img src="sixthphoto.jpg" alt="Photo 6" style="width: 100%; border-radius: 10px;">
+      <p>Class Picture with mam aquino</p>
+    </div>
+
+    <div style="text-align: center;">
+      <img src="seventhphoto.jpg" alt="Photo 7" style="width: 100%; border-radius: 10px;">
+      <p>Debut picture of our friend</p>
+    </div>
+
+  </div>
+</div>
+
+   
+   <div id="portfolio" style="background-color: #ffffff; padding: 30px; max-width: 1000px; margin: 30px auto; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+  <h2>My Portfolio</h2>
+  <p>This section showcases some of my completed performance tasks. Each project reflects effort, creativity, and the skills I’ve learned in class. Feel free to browse through them.</p>
+
+
+
+
+   <!--Portfolio-->
+  <table style="width: 100%; margin-top: 20px;" border="1">
+    <tr>
+      <th colspan ="2"><a href="#">Performance Task 1</a></th>
+      <th colspan ="2"><a href="#">Performance Task 2</a></th>
+    </tr>
+    <tr>
+      <th colspan ="2"><a href="#">Performance Task 3</a></th>
+      <th colspan ="2"><a href="#">Performance Task 4</a></th>
+    </tr>
+    <tr>
+      <th colspan ="2"><a href="#">Performance Task 5</a></th>
+      <th colspan ="2"><a href="#">Performance Task 6</a></th>
+    </tr>
+    <tr>
+      <th colspan ="2"><a href="#">Performance Task 7</a></th>
+      <th colspan ="2"><a href="#">Performance Task 8</a></th>
+    </tr>
+    <tr>
+      <th colspan ="2"><a href="#">Performance Task 9</a></th>
+      <th colspan ="2"><a href="#">Performance Task 10</a></th>
+    </tr>
+  </table>
+</div>
+<div id="contact" style="background-color: #ffffff; padding: 30px; max-width: 1000px; margin: 30px auto; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+  <h2>Contact Me</h2>
+  <p>If you'd like to connect, inform me of an assignment, or just say hello — feel free to reach out through any of the platforms below. I’m always happy to hear from friends, teachers, or fellow classmates.</p>
+
+  <ul style="list-style: none; padding-left: 0; margin-top: 20px; line-height: 2;">
+    <li>📘 <a href="https://www.facebook.com/andreayuan.serrano.3" target="_blank">Visit my Facebook Page</a></li>
+    <li>▶️ <a href="https://www.youtube.com/@akolangtosiandreayuan466" target="_blank">Watch on YouTube</a></li>
+    <li>📧 <a href="mailto:@andreayuanserrano@gmail.com">Email me at @andreayuanserrano@gmail.com</a></li>
+  </ul>
+</div>
+
+
+</body>
+</html>
